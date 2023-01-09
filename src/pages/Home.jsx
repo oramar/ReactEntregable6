@@ -38,7 +38,7 @@ const Home = () => {
         <form className='form-search' >
           <div className="form__group ">
             <input className='form__input' placeholder=' ' value={inputValue} onChange={handleChange} type="text" id='buscar' />
-            <label className='form__label' htmlFor="buscar">Email</label>
+            <label className='form__label' htmlFor="buscar">Search Product for value</label>
             <span className="form__line"></span>
           </div>
 
