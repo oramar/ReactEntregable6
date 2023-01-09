@@ -1,0 +1,12 @@
+.products-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: calc( 100vh - 4em - 14em);
+}
+
+.home-container{
+    margin-top: 5em;
+    
+}
