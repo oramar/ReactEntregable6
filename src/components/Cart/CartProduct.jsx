@@ -41,7 +41,7 @@ const CartProduct = ({ product }) => {
                 <p className='totalprice__title'>total Price: </p>
                 <span className='totalprice__value'>
                     {
-                        product && product.productsInCart.quantity * product.price
+                        product && Math.floor( product.productsInCart.quantity * product.price)
 
                     }
                 </span>

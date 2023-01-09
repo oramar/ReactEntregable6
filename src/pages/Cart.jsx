@@ -44,7 +44,7 @@ const Cart = () => {
                     {
                         cartPruducts ?
                             cartPruducts.reduce((acumulador, valorActual) => {
-                                return valorActual.price * valorActual.productsInCart.quantity + acumulador
+                                return Math.floor( valorActual.price * valorActual.productsInCart.quantity + acumulador)
                             }, 0)
                             : 0
                     }

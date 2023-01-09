@@ -1,0 +1,36 @@
+
+details>summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0.4em .7em;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    margin-bottom: 1.1em;
+    margin-top: 2.5em;
+}
+details>summary::after {
+    content: url(/img/next.svg) ;
+    width: 1.5em;
+    height: 1.5em;
+}
+details[open]>summary::after {
+    transform: rotate(90deg);
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+.list{
+    margin-left: 1.4em;    
+}
+.list__category{
+    margin-bottom: 1em;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(135, 133, 133);
+}

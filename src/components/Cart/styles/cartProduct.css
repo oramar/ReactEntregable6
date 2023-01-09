@@ -37,7 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(212, 86, 86);
+    color: #fff;
     
 }
 .cart-product__btn-delete:hover{

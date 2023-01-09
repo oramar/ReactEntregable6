@@ -1,0 +1,14 @@
+.type-order__btn{
+    margin-top: 1em;
+    padding: 1em 3em;
+    border-radius: .8em;
+    color: #fff;
+    background-color: #f85555;
+
+}
+
+.type-order{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
