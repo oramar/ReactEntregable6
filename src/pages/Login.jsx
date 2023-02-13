@@ -48,9 +48,9 @@ const Login = () => {
                             <h2 className="form__title">Inicia Sesión</h2>
                             <p className="form__paragraph">¿Aún no tienes una cuenta?<a href="" className="form__link">Entra aquí</a></p>
                             <div className="form__datoContacto">
-                                <h3 className="email">Dato ingreso: </h3>
-                                <p>email: juan@gmail.com </p>
-                                <p>contraseña: juan1234 </p>
+                                <h3 className="email">Datos de ingreso: </h3>
+                                <p>email: orlando-amado@hotmail.com </p>
+                                <p>contraseña: pass1234 </p>
                             </div>
                             <div className='form__container'>
                                 <div className="form__group">
