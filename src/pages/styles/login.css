@@ -60,6 +60,9 @@
     font-weight: 300;
 }
 
+.form__datoContacto{
+    margin-top: 1em;
+}
 .form__link{
     font-weight: 400;
     color: #000;
