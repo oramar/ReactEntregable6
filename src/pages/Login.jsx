@@ -47,7 +47,9 @@ const Login = () => {
                         <form className='form' onSubmit={handleSubmit(sumit)}>
                             <h2 className="form__title">Inicia Sesión</h2>
                             <p className="form__paragraph">¿Aún no tienes una cuenta?<a href="" className="form__link">Entra aquí</a></p>
-
+                            <div className="form__datoContacto">
+                                <p className="email">Dato ingreso: email: juan@gmail.com contraseña: juan1234 </p>
+                            </div>
                             <div className='form__container'>
                                 <div className="form__group">
                                     <input className='form__input' placeholder=' ' type="text" id='email' {...register('email')} />
